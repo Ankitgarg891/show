@@ -1,11 +1,11 @@
  $(document).ready(function() {
      $(".effect-text").fadeIn(2000, function() {
          $(".effect-text").fadeOut(2000, function() {
-             $(".effect-text").text("6 days to go");
+             $(".effect-text").text("9 days to go");
              $(".effect-text").fadeIn(2000, function() {
                  $(".effect-text").fadeOut(2000, function() {
                 
-                     $(".effect-text").text("#ItsGonnaBeSpecial");
+                     $(".effect-text").text("I Love You");
                      $(".effect-text").fadeIn(2000, function() {
                          $(".effect-text").fadeOut(2000, function() {
                              $(".effect-text").css("margin-top", "26vh")
