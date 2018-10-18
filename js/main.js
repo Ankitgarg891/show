@@ -40,7 +40,7 @@
 
              var random = Math.floor(Math.random() * 10)
 
-             if (random <= 9) {
+             if (random <= 6) {
                  $(".heart").attr("opacity", random)
 
              } else {
