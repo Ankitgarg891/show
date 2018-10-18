@@ -13,7 +13,7 @@
                              $(".effect-text").css("display", "block")
                              tubelightEffect();
                              setTimeout(function() {
-                                 $(".heart").attr("opacity", 0)
+                                 $(".heart").attr("opacity", 1)
 
                              }, 6000);
                          });
