@@ -1,7 +1,7 @@
  $(document).ready(function() {
      $(".effect-text").fadeIn(2000, function() {
          $(".effect-text").fadeOut(2000, function() {
-             $(".effect-text").text("7 days to go");
+             $(".effect-text").text("6 days to go");
              $(".effect-text").fadeIn(2000, function() {
                  $(".effect-text").fadeOut(2000, function() {
                      $(".effect-text").css("font-size", "27px")
