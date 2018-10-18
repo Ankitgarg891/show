@@ -12,5 +12,9 @@ body{
 	padding: 20px;
 	display: none;
 	font-family: 'Montserrat';
+
 }
 
+.heart{
+	filter: drop-shadow( 0 0px 7px red );
+}

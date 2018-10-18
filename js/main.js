@@ -4,8 +4,7 @@
              $(".effect-text").text("6 days to go");
              $(".effect-text").fadeIn(2000, function() {
                  $(".effect-text").fadeOut(2000, function() {
-                     $(".effect-text").css("font-size", "27px")
-                     $(".effect-text").css("font-weight", "300")
+                
                      $(".effect-text").text("#ItsGonnaBeSpecial");
                      $(".effect-text").fadeIn(2000, function() {
                          $(".effect-text").fadeOut(2000, function() {
@@ -15,6 +14,7 @@
                              tubelightEffect();
                              setTimeout(function() {
                                  $(".heart").attr("opacity", 0)
+
                              }, 6000);
                          });
                      })
